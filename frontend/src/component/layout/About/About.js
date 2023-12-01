@@ -5,7 +5,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://www.linkedin.com/in/bhaveshranjan/";
   };
   return (
     <div className="aboutSection">
@@ -21,7 +21,7 @@ const About = () => {
               src=" "
               alt="Founder"
             />
-            <Typography>Chirag Kumar</Typography>
+            <Typography>Bhavesh Ranjan</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
@@ -32,13 +32,13 @@ const About = () => {
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
+              href="https://bhaveshranjan.github.io/Bhavesh-s-Portfolio/"
               target="blank"
             >
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://www.linkedin.com/in/bhaveshranjan/" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>
